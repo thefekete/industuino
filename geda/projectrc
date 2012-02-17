@@ -1,0 +1,4 @@
+schematics industuino-main.sch
+elements-dir ./fp
+output-name pcb/industuino
+skip-m4
