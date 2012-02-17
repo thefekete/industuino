@@ -1,0 +1,9 @@
+# Arduino .gitignore
+*.rej
+*.orig
+*.a
+*.o
+*~
+*.swp
+*.patch
+*.bin
