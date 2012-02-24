@@ -148,7 +148,7 @@ C 42850 43300 1 0 0 crystal-1.sym
 T 43050 43800 5 10 0 0 0 0 1
 device=CRYSTAL
 T 43150 43600 5 10 1 1 0 6 1
-refdes=X1
+refdes=Y1
 T 43050 44000 5 10 0 0 0 0 1
 symversion=0.1
 T 43200 43600 5 10 1 1 180 8 1
