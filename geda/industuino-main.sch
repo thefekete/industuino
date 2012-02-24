@@ -1,7 +1,6 @@
 v 20100214 2
-T 64800 35100 8 10 1 0 0 2 7
+T 64800 35100 8 10 1 0 0 2 6
 todo=
-renumber refdes
 split schematic
 10pos terminal block
 LEDs on IO?
@@ -86,7 +85,7 @@ C 71900 44900 1 270 0 capacitor-1.sym
 T 72600 44700 5 10 0 0 270 0 1
 device=CAPACITOR
 T 72200 44600 5 10 1 1 0 0 1
-refdes=DC1
+refdes=C1
 T 72800 44700 5 10 0 0 270 0 1
 symversion=0.1
 T 72200 44300 5 10 1 1 180 6 1
@@ -97,7 +96,7 @@ C 71100 44900 1 270 0 capacitor-1.sym
 T 71800 44700 5 10 0 0 270 0 1
 device=CAPACITOR
 T 71400 44600 5 10 1 1 0 0 1
-refdes=DC2
+refdes=C2
 T 72000 44700 5 10 0 0 270 0 1
 symversion=0.1
 T 71400 44300 5 10 1 1 180 6 1
@@ -110,7 +109,7 @@ C 70300 44900 1 270 0 capacitor-1.sym
 T 71000 44700 5 10 0 0 270 0 1
 device=CAPACITOR
 T 70600 44600 5 10 1 1 0 0 1
-refdes=DC3
+refdes=C3
 T 71200 44700 5 10 0 0 270 0 1
 symversion=0.1
 T 70600 44300 5 10 1 1 180 6 1
@@ -124,7 +123,7 @@ C 42400 41900 1 270 0 capacitor-1.sym
 T 43100 41700 5 10 0 0 270 0 1
 device=CAPACITOR
 T 42700 41600 5 10 1 1 0 0 1
-refdes=DC6
+refdes=C4
 T 43300 41700 5 10 0 0 270 0 1
 symversion=0.1
 T 42700 41300 5 10 1 1 180 6 1
@@ -137,7 +136,7 @@ C 51000 44800 1 270 0 capacitor-1.sym
 T 51700 44600 5 10 0 0 270 0 1
 device=CAPACITOR
 T 51300 44500 5 10 1 1 0 0 1
-refdes=DC5
+refdes=C5
 T 51900 44600 5 10 0 0 270 0 1
 symversion=0.1
 T 51300 44200 5 10 1 1 180 6 1
@@ -375,7 +374,7 @@ C 42400 43800 1 270 0 capacitor-1.sym
 T 43100 43600 5 10 0 0 270 0 1
 device=CAPACITOR
 T 42700 43500 5 10 1 1 0 0 1
-refdes=DC7
+refdes=C6
 T 43300 43600 5 10 0 0 270 0 1
 symversion=0.1
 T 42700 43200 5 10 1 1 180 6 1
@@ -388,7 +387,7 @@ C 43900 49600 1 270 0 capacitor-1.sym
 T 44600 49400 5 10 0 0 270 0 1
 device=CAPACITOR
 T 44200 49300 5 10 1 1 0 0 1
-refdes=DC4
+refdes=C7
 T 44800 49400 5 10 0 0 270 0 1
 symversion=0.1
 T 44200 49000 5 10 1 1 180 6 1
@@ -420,7 +419,7 @@ C 35100 51100 1 0 0 resistor-2.sym
 T 35500 51450 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 51350 5 10 1 1 0 0 1
-refdes=R51
+refdes=R1
 T 35900 51350 5 10 1 1 180 2 1
 value=2k2
 }
@@ -446,7 +445,7 @@ C 35100 49600 1 0 0 resistor-2.sym
 T 35500 49950 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 49850 5 10 1 1 0 0 1
-refdes=R53
+refdes=R2
 T 35900 49850 5 10 1 1 180 2 1
 value=2k2
 }
@@ -472,7 +471,7 @@ C 35100 48100 1 0 0 resistor-2.sym
 T 35500 48450 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 48350 5 10 1 1 0 0 1
-refdes=R55
+refdes=R3
 T 35900 48350 5 10 1 1 180 2 1
 value=2k2
 }
@@ -498,7 +497,7 @@ C 35100 46600 1 0 0 resistor-2.sym
 T 35500 46950 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 46850 5 10 1 1 0 0 1
-refdes=R57
+refdes=R4
 T 35900 46850 5 10 1 1 180 2 1
 value=2k2
 }
@@ -524,7 +523,7 @@ C 35100 45100 1 0 0 resistor-2.sym
 T 35500 45450 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 45350 5 10 1 1 0 0 1
-refdes=R59
+refdes=R5
 T 35900 45350 5 10 1 1 180 2 1
 value=2k2
 }
@@ -550,7 +549,7 @@ C 35100 43600 1 0 0 resistor-2.sym
 T 35500 43950 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 43850 5 10 1 1 0 0 1
-refdes=R61
+refdes=R6
 T 35900 43850 5 10 1 1 180 2 1
 value=2k2
 }
@@ -576,7 +575,7 @@ C 35100 42100 1 0 0 resistor-2.sym
 T 35500 42450 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 42350 5 10 1 1 0 0 1
-refdes=R63
+refdes=R7
 T 35900 42350 5 10 1 1 180 2 1
 value=2k2
 }
@@ -602,7 +601,7 @@ C 35100 40600 1 0 0 resistor-2.sym
 T 35500 40950 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 40850 5 10 1 1 0 0 1
-refdes=R65
+refdes=R8
 T 35900 40850 5 10 1 1 180 2 1
 value=2k2
 }
@@ -628,7 +627,7 @@ C 35100 39100 1 0 0 resistor-2.sym
 T 35500 39450 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 39350 5 10 1 1 0 0 1
-refdes=R67
+refdes=R9
 T 35900 39350 5 10 1 1 180 2 1
 value=2k2
 }
@@ -654,7 +653,7 @@ C 35100 37600 1 0 0 resistor-2.sym
 T 35500 37950 5 10 0 0 0 0 1
 device=RESISTOR
 T 35200 37850 5 10 1 1 0 0 1
-refdes=R69
+refdes=R10
 T 35900 37850 5 10 1 1 180 2 1
 value=2k2
 }
@@ -677,7 +676,7 @@ C 53400 50900 1 0 0 resistor-2.sym
 T 53800 51250 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 51150 5 10 1 1 0 0 1
-refdes=R71
+refdes=R11
 T 53600 50850 5 10 1 1 0 2 1
 value=330R
 }
@@ -703,7 +702,7 @@ C 53400 49400 1 0 0 resistor-2.sym
 T 53800 49750 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 49650 5 10 1 1 0 0 1
-refdes=R72
+refdes=R12
 T 53600 49350 5 10 1 1 0 2 1
 value=330R
 }
@@ -729,7 +728,7 @@ C 53400 47900 1 0 0 resistor-2.sym
 T 53800 48250 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 48150 5 10 1 1 0 0 1
-refdes=R73
+refdes=R13
 T 53600 47850 5 10 1 1 0 2 1
 value=330R
 }
@@ -755,7 +754,7 @@ C 53400 46400 1 0 0 resistor-2.sym
 T 53800 46750 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 46650 5 10 1 1 0 0 1
-refdes=R74
+refdes=R14
 T 53600 46350 5 10 1 1 0 2 1
 value=330R
 }
@@ -781,7 +780,7 @@ C 53400 44900 1 0 0 resistor-2.sym
 T 53800 45250 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 45150 5 10 1 1 0 0 1
-refdes=R75
+refdes=R15
 T 53600 44850 5 10 1 1 0 2 1
 value=330R
 }
@@ -807,7 +806,7 @@ C 53400 43400 1 0 0 resistor-2.sym
 T 53800 43750 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 43650 5 10 1 1 0 0 1
-refdes=R76
+refdes=R16
 T 53600 43350 5 10 1 1 0 2 1
 value=330R
 }
@@ -833,7 +832,7 @@ C 53400 41900 1 0 0 resistor-2.sym
 T 53800 42250 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 42150 5 10 1 1 0 0 1
-refdes=R77
+refdes=R17
 T 53600 41850 5 10 1 1 0 2 1
 value=330R
 }
@@ -859,7 +858,7 @@ C 53400 40400 1 0 0 resistor-2.sym
 T 53800 40750 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 40650 5 10 1 1 0 0 1
-refdes=R78
+refdes=R18
 T 53600 40350 5 10 1 1 0 2 1
 value=330R
 }
@@ -885,7 +884,7 @@ C 53400 38900 1 0 0 resistor-2.sym
 T 53800 39250 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 39150 5 10 1 1 0 0 1
-refdes=R79
+refdes=R19
 T 53600 38850 5 10 1 1 0 2 1
 value=330R
 }
@@ -911,7 +910,7 @@ C 53400 37400 1 0 0 resistor-2.sym
 T 53800 37750 5 10 0 0 0 0 1
 device=RESISTOR
 T 53600 37650 5 10 1 1 0 0 1
-refdes=R80
+refdes=R20
 T 53600 37350 5 10 1 1 0 2 1
 value=330R
 }
@@ -966,7 +965,7 @@ C 70900 50800 1 90 0 resistor-2.sym
 T 70550 51200 5 10 0 0 90 0 1
 device=RESISTOR
 T 70950 51300 5 10 1 1 0 0 1
-refdes=R81
+refdes=R21
 T 70950 51200 5 10 1 1 0 2 1
 value=0R30
 }
@@ -975,7 +974,7 @@ C 71900 49300 1 0 0 resistor-2.sym
 T 72300 49650 5 10 0 0 0 0 1
 device=RESISTOR
 T 72000 49550 5 10 1 1 0 0 1
-refdes=R82
+refdes=R22
 T 72700 49550 5 10 1 1 180 2 1
 value=10k
 }
@@ -991,7 +990,7 @@ C 72800 49300 1 0 0 resistor-2.sym
 T 73200 49650 5 10 0 0 0 0 1
 device=RESISTOR
 T 72900 49550 5 10 1 1 0 0 1
-refdes=R83
+refdes=R23
 T 73600 49550 5 10 1 1 180 2 1
 value=10k
 }
@@ -1000,7 +999,7 @@ C 73700 49300 1 0 0 resistor-2.sym
 T 74100 49650 5 10 0 0 0 0 1
 device=RESISTOR
 T 73800 49550 5 10 1 1 0 0 1
-refdes=R84
+refdes=R24
 T 74500 49550 5 10 1 1 180 2 1
 value=10k
 }
@@ -1009,7 +1008,7 @@ C 72000 48300 1 90 0 resistor-2.sym
 T 71650 48700 5 10 0 0 90 0 1
 device=RESISTOR
 T 72050 48800 5 10 1 1 0 0 1
-refdes=R85
+refdes=R25
 T 72050 48700 5 10 1 1 0 2 1
 value=10k
 }
@@ -1025,7 +1024,7 @@ C 70600 50800 1 270 0 capacitor-2.sym
 T 71300 50600 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 71050 50400 5 10 1 1 0 0 1
-refdes=C11
+refdes=C8
 T 71500 50600 5 10 0 0 270 0 1
 symversion=0.1
 T 71050 50300 5 10 1 1 0 2 1
@@ -1037,7 +1036,7 @@ C 73600 51300 1 270 0 capacitor-1.sym
 T 74300 51100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 73900 51000 5 10 1 1 0 0 1
-refdes=DC5
+refdes=C9
 T 74500 51100 5 10 0 0 270 0 1
 symversion=0.1
 T 73900 50700 5 10 1 1 180 6 1
@@ -1049,7 +1048,7 @@ C 73700 50100 1 0 0 gnd-1.sym
 C 74400 51700 1 270 0 schottky-1.sym
 {
 T 74900 51100 5 10 1 1 0 0 1
-refdes=D21
+refdes=D1
 T 77400 51600 5 10 0 0 270 0 1
 device=SCHOTTKY DIODE
 T 76600 51600 5 10 0 0 270 0 1
@@ -1077,7 +1076,7 @@ C 75300 49200 1 270 0 capacitor-2.sym
 T 76000 49000 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 75750 48800 5 10 1 1 0 0 1
-refdes=C12
+refdes=C10
 T 76200 49000 5 10 0 0 270 0 1
 symversion=0.1
 T 75750 48700 5 10 1 1 0 2 1
@@ -1162,7 +1161,7 @@ C 68900 50100 1 0 0 gnd-1.sym
 C 69500 49800 1 0 0 led-1.sym
 {
 T 69950 50400 5 10 1 1 0 2 1
-refdes=D22
+refdes=D2
 T 69750 53100 5 10 0 0 0 0 1
 device=LED
 T 69750 52200 5 10 0 0 0 0 1
@@ -1173,7 +1172,7 @@ C 69900 48900 1 90 0 resistor-2.sym
 T 69550 49300 5 10 0 0 90 0 1
 device=RESISTOR
 T 69950 49400 5 10 1 1 0 0 1
-refdes=R86
+refdes=R26
 T 69950 49300 5 10 1 1 0 2 1
 value=2k2
 }
@@ -1365,7 +1364,7 @@ C 72100 41900 1 90 0 resistor-2.sym
 T 71750 42300 5 10 0 0 90 0 1
 device=RESISTOR
 T 72150 42400 5 10 1 1 0 0 1
-refdes=R87
+refdes=R27
 T 72150 42300 5 10 1 1 0 2 1
 value=10k
 }
@@ -1375,7 +1374,7 @@ C 76850 43500 1 270 0 capacitor-1.sym
 T 77550 43300 5 10 0 0 270 0 1
 device=CAPACITOR
 T 77150 43200 5 10 1 1 0 0 1
-refdes=C13
+refdes=C11
 T 77750 43300 5 10 0 0 270 0 1
 symversion=0.1
 T 77150 42900 5 10 1 1 180 6 1
@@ -1386,7 +1385,7 @@ C 78150 43500 1 270 0 capacitor-1.sym
 T 78850 43300 5 10 0 0 270 0 1
 device=CAPACITOR
 T 78450 43200 5 10 1 1 0 0 1
-refdes=C14
+refdes=C12
 T 79050 43300 5 10 0 0 270 0 1
 symversion=0.1
 T 78450 42900 5 10 1 1 180 6 1
@@ -1412,7 +1411,7 @@ C 70900 41300 1 0 0 capacitor-1.sym
 T 71100 42000 5 10 0 0 0 0 1
 device=CAPACITOR
 T 71300 41700 5 10 1 1 0 6 1
-refdes=C15
+refdes=C13
 T 71100 42200 5 10 0 0 0 0 1
 symversion=0.1
 T 71400 41700 5 10 1 1 0 0 1
@@ -1480,7 +1479,7 @@ device=none
 C 76400 57500 1 270 0 led-1.sym
 {
 T 76950 57350 5 10 1 1 0 0 1
-refdes=D23
+refdes=D3
 T 79700 57250 5 10 0 0 270 0 1
 device=LED
 T 78800 57250 5 10 0 0 270 0 1
@@ -1489,7 +1488,7 @@ footprint=~
 C 76400 56400 1 270 0 led-1.sym
 {
 T 76950 56250 5 10 1 1 0 0 1
-refdes=D24
+refdes=D4
 T 79700 56150 5 10 0 0 270 0 1
 device=LED
 T 78800 56150 5 10 0 0 270 0 1
@@ -1514,7 +1513,7 @@ C 71600 57200 1 0 0 capacitor-1.sym
 T 71800 57900 5 10 0 0 0 0 1
 device=CAPACITOR
 T 72000 57600 5 10 1 1 0 6 1
-refdes=C16
+refdes=C14
 T 71800 58100 5 10 0 0 0 0 1
 symversion=0.1
 T 72100 57600 5 10 1 1 0 0 1
@@ -1537,7 +1536,7 @@ C 72200 55900 1 270 0 capacitor-1.sym
 T 72900 55700 5 10 0 0 270 0 1
 device=CAPACITOR
 T 72500 55600 5 10 1 1 0 0 1
-refdes=C17
+refdes=C15
 T 73100 55700 5 10 0 0 270 0 1
 symversion=0.1
 T 72500 55300 5 10 1 1 180 6 1
@@ -1556,7 +1555,7 @@ C 69700 59900 1 0 0 capacitor-1.sym
 T 69900 60600 5 10 0 0 0 0 1
 device=CAPACITOR
 T 70100 60300 5 10 1 1 0 6 1
-refdes=C18
+refdes=C16
 T 69900 60800 5 10 0 0 0 0 1
 symversion=0.1
 T 70200 60300 5 10 1 1 0 0 1
@@ -1585,7 +1584,7 @@ C 76400 60000 1 0 0 resistor-2.sym
 T 76800 60350 5 10 0 0 0 0 1
 device=RESISTOR
 T 76500 60250 5 10 1 1 0 0 1
-refdes=R88
+refdes=R28
 T 77200 60250 5 10 1 1 180 2 1
 value=2k2
 }
@@ -1594,7 +1593,7 @@ C 76400 59500 1 0 0 resistor-2.sym
 T 76800 59850 5 10 0 0 0 0 1
 device=RESISTOR
 T 76500 59750 5 10 1 1 0 0 1
-refdes=R89
+refdes=R29
 T 77200 59750 5 10 1 1 180 2 1
 value=2k2
 }
@@ -1603,7 +1602,7 @@ C 76400 58800 1 0 0 resistor-2.sym
 T 76800 59150 5 10 0 0 0 0 1
 device=RESISTOR
 T 76500 59050 5 10 1 1 0 0 1
-refdes=R90
+refdes=R30
 T 77200 59050 5 10 1 1 180 2 1
 value=2k2
 }
@@ -1612,7 +1611,7 @@ C 76400 58300 1 0 0 resistor-2.sym
 T 76800 58650 5 10 0 0 0 0 1
 device=RESISTOR
 T 76500 58550 5 10 1 1 0 0 1
-refdes=R91
+refdes=R31
 T 77200 58550 5 10 1 1 180 2 1
 value=2k2
 }
@@ -1629,7 +1628,7 @@ C 77400 57400 1 0 0 resistor-2.sym
 T 77800 57750 5 10 0 0 0 0 1
 device=RESISTOR
 T 77500 57650 5 10 1 1 0 0 1
-refdes=R92
+refdes=R32
 T 78200 57650 5 10 1 1 180 2 1
 value=2k2
 }
@@ -1638,7 +1637,7 @@ C 77400 56800 1 0 0 resistor-2.sym
 T 77800 57150 5 10 0 0 0 0 1
 device=RESISTOR
 T 77500 57050 5 10 1 1 0 0 1
-refdes=R93
+refdes=R33
 T 78200 57050 5 10 1 1 180 2 1
 value=2k2
 }
@@ -1649,7 +1648,7 @@ C 77400 56300 1 0 0 resistor-2.sym
 T 77800 56650 5 10 0 0 0 0 1
 device=RESISTOR
 T 77500 56550 5 10 1 1 0 0 1
-refdes=R94
+refdes=R34
 T 78200 56550 5 10 1 1 180 2 1
 value=2k2
 }
@@ -1658,7 +1657,7 @@ C 77400 55700 1 0 0 resistor-2.sym
 T 77800 56050 5 10 0 0 0 0 1
 device=RESISTOR
 T 77500 55950 5 10 1 1 0 0 1
-refdes=R95
+refdes=R35
 T 78200 55950 5 10 1 1 180 2 1
 value=2k2
 }
