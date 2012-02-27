@@ -473,7 +473,7 @@ graphical=1
 C 23400 30300 1 0 0 debounce.sym
 {
 T 23700 31150 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 31150 5 10 1 1 0 6 1
 refdes=X1
 }
@@ -481,7 +481,7 @@ C 25700 30900 1 0 0 vcc-1.sym
 C 23400 28800 1 0 0 debounce.sym
 {
 T 23700 29650 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 29650 5 10 1 1 0 6 1
 refdes=X2
 }
@@ -489,7 +489,7 @@ C 25700 29400 1 0 0 vcc-1.sym
 C 23400 27300 1 0 0 debounce.sym
 {
 T 23700 28150 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 28150 5 10 1 1 0 6 1
 refdes=X3
 }
@@ -497,7 +497,7 @@ C 25700 27900 1 0 0 vcc-1.sym
 C 23400 25800 1 0 0 debounce.sym
 {
 T 23700 26650 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 26650 5 10 1 1 0 6 1
 refdes=X4
 }
@@ -505,7 +505,7 @@ C 25700 26400 1 0 0 vcc-1.sym
 C 23400 24300 1 0 0 debounce.sym
 {
 T 23700 25150 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 25150 5 10 1 1 0 6 1
 refdes=X5
 }
@@ -513,7 +513,7 @@ C 25700 24900 1 0 0 vcc-1.sym
 C 23400 22800 1 0 0 debounce.sym
 {
 T 23700 23650 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 23650 5 10 1 1 0 6 1
 refdes=X6
 }
@@ -521,7 +521,7 @@ C 25700 23400 1 0 0 vcc-1.sym
 C 23400 21300 1 0 0 debounce.sym
 {
 T 23700 22150 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 22150 5 10 1 1 0 6 1
 refdes=X7
 }
@@ -529,7 +529,7 @@ C 25700 21900 1 0 0 vcc-1.sym
 C 23400 19800 1 0 0 debounce.sym
 {
 T 23700 20650 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 20650 5 10 1 1 0 6 1
 refdes=X8
 }
@@ -537,7 +537,7 @@ C 25700 20400 1 0 0 vcc-1.sym
 C 23400 18300 1 0 0 debounce.sym
 {
 T 23700 19150 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 19150 5 10 1 1 0 6 1
 refdes=X9
 }
@@ -545,7 +545,7 @@ C 25700 18900 1 0 0 vcc-1.sym
 C 23400 16800 1 0 0 debounce.sym
 {
 T 23700 17650 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 17650 5 10 1 1 0 6 1
 refdes=X10
 }
@@ -590,7 +590,7 @@ T 32700 10125 15 8 1 1 0 4 1
 T 32850 10125 15 6 1 0 0 1 1
 OF
 T 33150 10125 15 8 1 1 0 4 1
-3
+5
 T 27350 10850 15 6 1 0 0 2 1
 TITLE:
 T 29800 10550 15 28 1 1 0 4 1
@@ -648,7 +648,7 @@ C 21500 15800 1 0 0 resistor-2.sym
 T 21900 16150 5 10 0 0 0 0 1
 device=RESISTOR
 T 21600 16050 5 10 1 1 0 0 1
-refdes=R?
+refdes=R36
 T 22300 16050 5 10 1 1 180 2 1
 value=2k2
 }
@@ -674,7 +674,7 @@ C 21500 14300 1 0 0 resistor-2.sym
 T 21900 14650 5 10 0 0 0 0 1
 device=RESISTOR
 T 21600 14550 5 10 1 1 0 0 1
-refdes=R?
+refdes=R37
 T 22300 14550 5 10 1 1 180 2 1
 value=2k2
 }
@@ -688,7 +688,7 @@ value=PGND
 C 23400 15300 1 0 0 debounce.sym
 {
 T 23700 16150 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 16150 5 10 1 1 0 6 1
 refdes=X9
 }
@@ -696,7 +696,7 @@ C 25700 15900 1 0 0 vcc-1.sym
 C 23400 13800 1 0 0 debounce.sym
 {
 T 23700 14650 5 10 1 1 0 0 1
-source=debounce.sch
+source=industuino-x1-debounce.sch
 T 25600 14650 5 10 1 1 0 6 1
 refdes=X10
 }
@@ -813,7 +813,7 @@ device=none
 C 19800 24700 1 0 1 tblock2-1.sym
 {
 T 18950 25550 5 10 1 1 0 0 1
-refdes=TB?
+refdes=TB10
 T 19500 27900 5 10 0 0 0 6 1
 device=282841-2
 T 19500 26700 5 10 0 0 0 6 1

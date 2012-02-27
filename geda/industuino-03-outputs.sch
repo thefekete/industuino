@@ -319,7 +319,7 @@ net=+24v:1
 C 24800 30500 1 0 0 highside.sym
 {
 T 25100 31250 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 31250 5 10 1 1 0 6 1
 refdes=X11
 }
@@ -332,7 +332,7 @@ N 27500 31000 27300 31000 4
 C 24800 29000 1 0 0 highside.sym
 {
 T 25100 29750 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 29750 5 10 1 1 0 6 1
 refdes=X12
 }
@@ -345,7 +345,7 @@ N 27500 29500 27300 29500 4
 C 24800 27500 1 0 0 highside.sym
 {
 T 25100 28250 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 28250 5 10 1 1 0 6 1
 refdes=X13
 }
@@ -358,7 +358,7 @@ N 27500 28000 27300 28000 4
 C 24800 26000 1 0 0 highside.sym
 {
 T 25100 26750 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 26750 5 10 1 1 0 6 1
 refdes=X14
 }
@@ -371,7 +371,7 @@ N 27500 26500 27300 26500 4
 C 24800 24500 1 0 0 highside.sym
 {
 T 25100 25250 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 25250 5 10 1 1 0 6 1
 refdes=X15
 }
@@ -384,7 +384,7 @@ N 27500 25000 27300 25000 4
 C 24800 23000 1 0 0 highside.sym
 {
 T 25100 23750 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 23750 5 10 1 1 0 6 1
 refdes=X16
 }
@@ -397,7 +397,7 @@ N 27500 23500 27300 23500 4
 C 24800 21500 1 0 0 highside.sym
 {
 T 25100 22250 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 22250 5 10 1 1 0 6 1
 refdes=X17
 }
@@ -410,7 +410,7 @@ N 27500 22000 27300 22000 4
 C 24800 20000 1 0 0 highside.sym
 {
 T 25100 20750 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 20750 5 10 1 1 0 6 1
 refdes=X18
 }
@@ -423,7 +423,7 @@ N 27500 20500 27300 20500 4
 C 24800 18500 1 0 0 highside.sym
 {
 T 25100 19250 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 19250 5 10 1 1 0 6 1
 refdes=X19
 }
@@ -436,7 +436,7 @@ N 27500 19000 27300 19000 4
 C 24800 17000 1 0 0 highside.sym
 {
 T 25100 17750 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 17750 5 10 1 1 0 6 1
 refdes=X20
 }
@@ -487,7 +487,7 @@ T 32700 10125 15 8 1 1 0 4 1
 T 32850 10125 15 6 1 0 0 1 1
 OF
 T 33150 10125 15 8 1 1 0 4 1
-3
+5
 T 27350 10850 15 6 1 0 0 2 1
 TITLE:
 T 29800 10550 15 28 1 1 0 4 1
@@ -525,7 +525,7 @@ C 22900 15900 1 0 0 resistor-2.sym
 T 23300 16250 5 10 0 0 0 0 1
 device=RESISTOR
 T 23100 16150 5 10 1 1 0 0 1
-refdes=R?
+refdes=R38
 T 23100 15850 5 10 1 1 0 2 1
 value=330R
 }
@@ -551,7 +551,7 @@ C 22900 14400 1 0 0 resistor-2.sym
 T 23300 14750 5 10 0 0 0 0 1
 device=RESISTOR
 T 23100 14650 5 10 1 1 0 0 1
-refdes=R?
+refdes=R39
 T 23100 14350 5 10 1 1 0 2 1
 value=330R
 }
@@ -559,7 +559,7 @@ C 23700 13800 1 0 0 gnd-1.sym
 C 24800 15500 1 0 0 highside.sym
 {
 T 25100 16250 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 16250 5 10 1 1 0 6 1
 refdes=X19
 }
@@ -572,7 +572,7 @@ N 27500 16000 27300 16000 4
 C 24800 14000 1 0 0 highside.sym
 {
 T 25100 14750 5 10 1 1 0 0 1
-source=highside.sch
+source=industuino-x2-highside.sch
 T 27000 14750 5 10 1 1 0 6 1
 refdes=X20
 }
@@ -683,7 +683,7 @@ device=none
 C 29400 24400 1 0 0 tblock2-1.sym
 {
 T 30250 25250 5 10 1 1 0 6 1
-refdes=TB?
+refdes=TB11
 T 29700 27600 5 10 0 0 0 0 1
 device=282841-2
 T 29700 26400 5 10 0 0 0 0 1
