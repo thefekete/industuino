@@ -3,10 +3,22 @@ C 23800 30600 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 31150 5 10 1 1 0 6 1
 refdes=U10
-T 24000 33700 5 10 0 0 0 0 1
+T 24000 33700 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 32200 5 10 0 0 0 0 1
 slot=1
+T 23800 30600 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 30600 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 30600 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 30600 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 30600 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 30600 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 30600 1 180 0 generic-power.sym
 {
@@ -17,32 +29,44 @@ value=PGND
 }
 C 22900 30900 1 0 0 resistor-2.sym
 {
-T 23300 31250 5 10 0 0 0 0 1
+T 23300 31250 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 31150 5 10 1 1 0 0 1
 refdes=R11
 T 23100 30850 5 10 1 1 0 2 1
 value=330R
-T 22900 30900 5 10 0 0 0 0 1
-mfg_num=?
-T 22900 30900 5 10 0 0 0 0 1
-mfg=?
-T 22900 30900 5 10 0 0 0 0 1
-vnd_num=?
-T 22900 30900 5 10 0 0 0 0 1
-vnd=?
-T 22900 30900 5 10 0 0 0 0 1
-datasheet=?
+T 22900 30900 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 30900 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 30900 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 30900 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 30900 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 30300 1 0 0 gnd-1.sym
 C 23800 29100 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 29650 5 10 1 1 0 6 1
 refdes=U10
-T 24000 32200 5 10 0 0 0 0 1
+T 24000 32200 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 30700 5 10 0 0 0 0 1
 slot=2
+T 23800 29100 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 29100 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 29100 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 29100 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 29100 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 29100 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 29100 1 180 0 generic-power.sym
 {
@@ -53,22 +77,44 @@ value=PGND
 }
 C 22900 29400 1 0 0 resistor-2.sym
 {
-T 23300 29750 5 10 0 0 0 0 1
+T 23300 29750 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 29650 5 10 1 1 0 0 1
 refdes=R12
 T 23100 29350 5 10 1 1 0 2 1
 value=330R
+T 22900 29400 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 29400 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 29400 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 29400 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 29400 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 28800 1 0 0 gnd-1.sym
 C 23800 27600 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 28150 5 10 1 1 0 6 1
 refdes=U10
-T 24000 30700 5 10 0 0 0 0 1
+T 24000 30700 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 29200 5 10 0 0 0 0 1
 slot=3
+T 23800 27600 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 27600 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 27600 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 27600 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 27600 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 27600 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 27600 1 180 0 generic-power.sym
 {
@@ -79,22 +125,44 @@ value=PGND
 }
 C 22900 27900 1 0 0 resistor-2.sym
 {
-T 23300 28250 5 10 0 0 0 0 1
+T 23300 28250 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 28150 5 10 1 1 0 0 1
 refdes=R13
 T 23100 27850 5 10 1 1 0 2 1
 value=330R
+T 22900 27900 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 27900 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 27900 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 27900 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 27900 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 27300 1 0 0 gnd-1.sym
 C 23800 26100 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 26650 5 10 1 1 0 6 1
 refdes=U10
-T 24000 29200 5 10 0 0 0 0 1
+T 24000 29200 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 27700 5 10 0 0 0 0 1
 slot=4
+T 23800 26100 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 26100 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 26100 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 26100 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 26100 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 26100 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 26100 1 180 0 generic-power.sym
 {
@@ -105,22 +173,44 @@ value=PGND
 }
 C 22900 26400 1 0 0 resistor-2.sym
 {
-T 23300 26750 5 10 0 0 0 0 1
+T 23300 26750 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 26650 5 10 1 1 0 0 1
 refdes=R14
 T 23100 26350 5 10 1 1 0 2 1
 value=330R
+T 22900 26400 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 26400 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 26400 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 26400 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 26400 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 25800 1 0 0 gnd-1.sym
 C 23800 24600 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 25150 5 10 1 1 0 6 1
 refdes=U11
-T 24000 27700 5 10 0 0 0 0 1
+T 24000 27700 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 26200 5 10 0 0 0 0 1
 slot=1
+T 23800 24600 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 24600 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 24600 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 24600 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 24600 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 24600 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 24600 1 180 0 generic-power.sym
 {
@@ -131,22 +221,44 @@ value=PGND
 }
 C 22900 24900 1 0 0 resistor-2.sym
 {
-T 23300 25250 5 10 0 0 0 0 1
+T 23300 25250 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 25150 5 10 1 1 0 0 1
 refdes=R15
 T 23100 24850 5 10 1 1 0 2 1
 value=330R
+T 22900 24900 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 24900 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 24900 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 24900 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 24900 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 24300 1 0 0 gnd-1.sym
 C 23800 23100 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 23650 5 10 1 1 0 6 1
 refdes=U11
-T 24000 26200 5 10 0 0 0 0 1
+T 24000 26200 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 24700 5 10 0 0 0 0 1
 slot=2
+T 23800 23100 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 23100 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 23100 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 23100 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 23100 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 23100 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 23100 1 180 0 generic-power.sym
 {
@@ -157,22 +269,44 @@ value=PGND
 }
 C 22900 23400 1 0 0 resistor-2.sym
 {
-T 23300 23750 5 10 0 0 0 0 1
+T 23300 23750 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 23650 5 10 1 1 0 0 1
 refdes=R16
 T 23100 23350 5 10 1 1 0 2 1
 value=330R
+T 22900 23400 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 23400 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 23400 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 23400 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 23400 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 22800 1 0 0 gnd-1.sym
 C 23800 21600 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 22150 5 10 1 1 0 6 1
 refdes=U11
-T 24000 24700 5 10 0 0 0 0 1
+T 24000 24700 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 23200 5 10 0 0 0 0 1
 slot=3
+T 23800 21600 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 21600 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 21600 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 21600 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 21600 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 21600 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 21600 1 180 0 generic-power.sym
 {
@@ -183,22 +317,44 @@ value=PGND
 }
 C 22900 21900 1 0 0 resistor-2.sym
 {
-T 23300 22250 5 10 0 0 0 0 1
+T 23300 22250 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 22150 5 10 1 1 0 0 1
 refdes=R17
 T 23100 21850 5 10 1 1 0 2 1
 value=330R
+T 22900 21900 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 21900 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 21900 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 21900 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 21900 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 21300 1 0 0 gnd-1.sym
 C 23800 20100 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 20650 5 10 1 1 0 6 1
 refdes=U11
-T 24000 23200 5 10 0 0 0 0 1
+T 24000 23200 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 21700 5 10 0 0 0 0 1
 slot=4
+T 23800 20100 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 20100 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 20100 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 20100 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 20100 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 20100 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 20100 1 180 0 generic-power.sym
 {
@@ -209,22 +365,44 @@ value=PGND
 }
 C 22900 20400 1 0 0 resistor-2.sym
 {
-T 23300 20750 5 10 0 0 0 0 1
+T 23300 20750 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 20650 5 10 1 1 0 0 1
 refdes=R18
 T 23100 20350 5 10 1 1 0 2 1
 value=330R
+T 22900 20400 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 20400 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 20400 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 20400 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 20400 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 19800 1 0 0 gnd-1.sym
 C 23800 18600 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 19150 5 10 1 1 0 6 1
 refdes=U12
-T 24000 21700 5 10 0 0 0 0 1
+T 24000 21700 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 20200 5 10 0 0 0 0 1
 slot=1
+T 23800 18600 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 18600 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 18600 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 18600 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 18600 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 18600 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 18600 1 180 0 generic-power.sym
 {
@@ -235,22 +413,44 @@ value=PGND
 }
 C 22900 18900 1 0 0 resistor-2.sym
 {
-T 23300 19250 5 10 0 0 0 0 1
+T 23300 19250 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 19150 5 10 1 1 0 0 1
 refdes=R19
 T 23100 18850 5 10 1 1 0 2 1
 value=330R
+T 22900 18900 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 18900 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 18900 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 18900 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 18900 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 18300 1 0 0 gnd-1.sym
 C 23800 17100 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 17650 5 10 1 1 0 6 1
 refdes=U12
-T 24000 20200 5 10 0 0 0 0 1
+T 24000 20200 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 18700 5 10 0 0 0 0 1
 slot=2
+T 23800 17100 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 17100 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 17100 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 17100 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 17100 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 17100 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 17100 1 180 0 generic-power.sym
 {
@@ -261,12 +461,22 @@ value=PGND
 }
 C 22900 17400 1 0 0 resistor-2.sym
 {
-T 23300 17750 5 10 0 0 0 0 1
+T 23300 17750 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 17650 5 10 1 1 0 0 1
 refdes=R20
 T 23100 17350 5 10 1 1 0 2 1
 value=330R
+T 22900 17400 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 17400 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 17400 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 17400 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 17400 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 16800 1 0 0 gnd-1.sym
 C 22900 30900 1 0 1 io-1.sym
@@ -289,37 +499,69 @@ C 29400 30000 1 0 0 tblock3-1.sym
 {
 T 30250 31250 5 10 1 1 0 6 1
 refdes=TB1
-T 29700 33600 5 10 0 0 0 0 1
+T 29700 33600 5 10 1 1 0 0 1
 device=282841-3
-T 29700 32400 5 10 0 0 0 0 1
+T 29700 32400 5 10 0 1 0 0 1
 footprint=0
+T 29400 30000 5 10 0 1 0 0 1
+mfg=te connectivity
+T 29400 30000 5 10 0 1 0 0 1
+mfg_num=282841-3
+T 29400 30000 5 10 0 1 0 0 1
+vnd=digikey
+T 29400 30000 5 10 0 1 0 0 1
+vnd_num=A98343-ND
 }
 C 29400 28500 1 0 0 tblock3-1.sym
 {
 T 30250 29750 5 10 1 1 0 6 1
 refdes=TB2
-T 29700 32100 5 10 0 0 0 0 1
+T 29700 32100 5 10 1 1 0 0 1
 device=282841-3
-T 29700 30900 5 10 0 0 0 0 1
+T 29700 30900 5 10 0 1 0 0 1
 footprint=0
+T 29400 28500 5 10 0 1 0 0 1
+mfg=te connectivity
+T 29400 28500 5 10 0 1 0 0 1
+mfg_num=282841-3
+T 29400 28500 5 10 0 1 0 0 1
+vnd=digikey
+T 29400 28500 5 10 0 1 0 0 1
+vnd_num=A98343-ND
 }
 C 29400 27000 1 0 0 tblock3-1.sym
 {
 T 30250 28250 5 10 1 1 0 6 1
 refdes=TB3
-T 29700 30600 5 10 0 0 0 0 1
+T 29700 30600 5 10 1 1 0 0 1
 device=282841-3
-T 29700 29400 5 10 0 0 0 0 1
+T 29700 29400 5 10 0 1 0 0 1
 footprint=0
+T 29400 27000 5 10 0 1 0 0 1
+mfg=te connectivity
+T 29400 27000 5 10 0 1 0 0 1
+mfg_num=282841-3
+T 29400 27000 5 10 0 1 0 0 1
+vnd=digikey
+T 29400 27000 5 10 0 1 0 0 1
+vnd_num=A98343-ND
 }
 C 29400 25500 1 0 0 tblock3-1.sym
 {
 T 30250 26750 5 10 1 1 0 6 1
 refdes=TB4
-T 29700 29100 5 10 0 0 0 0 1
+T 29700 29100 5 10 1 1 0 0 1
 device=282841-3
-T 29700 27900 5 10 0 0 0 0 1
+T 29700 27900 5 10 0 1 0 0 1
 footprint=0
+T 29400 25500 5 10 0 1 0 0 1
+mfg=te connectivity
+T 29400 25500 5 10 0 1 0 0 1
+mfg_num=282841-3
+T 29400 25500 5 10 0 1 0 0 1
+vnd=digikey
+T 29400 25500 5 10 0 1 0 0 1
+vnd_num=A98343-ND
 }
 C 29200 31000 1 0 0 generic-power.sym
 {
@@ -328,7 +570,7 @@ net=+24v:1
 }
 C 24800 30500 1 0 0 highside.sym
 {
-T 25100 31250 5 10 1 1 0 0 1
+T 25100 31250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 31250 5 10 1 1 0 6 1
 refdes=X11
@@ -341,7 +583,7 @@ net=+24v:1
 N 27500 31000 27300 31000 4
 C 24800 29000 1 0 0 highside.sym
 {
-T 25100 29750 5 10 1 1 0 0 1
+T 25100 29750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 29750 5 10 1 1 0 6 1
 refdes=X12
@@ -354,7 +596,7 @@ net=+24v:1
 N 27500 29500 27300 29500 4
 C 24800 27500 1 0 0 highside.sym
 {
-T 25100 28250 5 10 1 1 0 0 1
+T 25100 28250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 28250 5 10 1 1 0 6 1
 refdes=X13
@@ -367,7 +609,7 @@ net=+24v:1
 N 27500 28000 27300 28000 4
 C 24800 26000 1 0 0 highside.sym
 {
-T 25100 26750 5 10 1 1 0 0 1
+T 25100 26750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 26750 5 10 1 1 0 6 1
 refdes=X14
@@ -380,7 +622,7 @@ net=+24v:1
 N 27500 26500 27300 26500 4
 C 24800 24500 1 0 0 highside.sym
 {
-T 25100 25250 5 10 1 1 0 0 1
+T 25100 25250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 25250 5 10 1 1 0 6 1
 refdes=X15
@@ -393,7 +635,7 @@ net=+24v:1
 N 27500 25000 27300 25000 4
 C 24800 23000 1 0 0 highside.sym
 {
-T 25100 23750 5 10 1 1 0 0 1
+T 25100 23750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 23750 5 10 1 1 0 6 1
 refdes=X16
@@ -406,7 +648,7 @@ net=+24v:1
 N 27500 23500 27300 23500 4
 C 24800 21500 1 0 0 highside.sym
 {
-T 25100 22250 5 10 1 1 0 0 1
+T 25100 22250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 22250 5 10 1 1 0 6 1
 refdes=X17
@@ -419,7 +661,7 @@ net=+24v:1
 N 27500 22000 27300 22000 4
 C 24800 20000 1 0 0 highside.sym
 {
-T 25100 20750 5 10 1 1 0 0 1
+T 25100 20750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 20750 5 10 1 1 0 6 1
 refdes=X18
@@ -432,7 +674,7 @@ net=+24v:1
 N 27500 20500 27300 20500 4
 C 24800 18500 1 0 0 highside.sym
 {
-T 25100 19250 5 10 1 1 0 0 1
+T 25100 19250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 19250 5 10 1 1 0 6 1
 refdes=X19
@@ -445,7 +687,7 @@ net=+24v:1
 N 27500 19000 27300 19000 4
 C 24800 17000 1 0 0 highside.sym
 {
-T 25100 17750 5 10 1 1 0 0 1
+T 25100 17750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 17750 5 10 1 1 0 6 1
 refdes=X20
@@ -518,10 +760,22 @@ C 23800 15600 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 16150 5 10 1 1 0 6 1
 refdes=U12
-T 24000 18700 5 10 0 0 0 0 1
+T 24000 18700 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 17200 5 10 0 0 0 0 1
 slot=3
+T 23800 15600 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 15600 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 15600 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 15600 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 15600 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 15600 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 15600 1 180 0 generic-power.sym
 {
@@ -532,22 +786,44 @@ value=PGND
 }
 C 22900 15900 1 0 0 resistor-2.sym
 {
-T 23300 16250 5 10 0 0 0 0 1
+T 23300 16250 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 16150 5 10 1 1 0 0 1
 refdes=R38
 T 23100 15850 5 10 1 1 0 2 1
 value=330R
+T 22900 15900 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 15900 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 15900 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 15900 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 15900 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 15300 1 0 0 gnd-1.sym
 C 23800 14100 1 0 0 quad-optoisolator-1.sym
 {
 T 24495 14650 5 10 1 1 0 6 1
 refdes=U12
-T 24000 17200 5 10 0 0 0 0 1
+T 24000 17200 5 10 1 1 0 0 1
 device=OPTO_ISOLATOR
 T 24000 15700 5 10 0 0 0 0 1
 slot=4
+T 23800 14100 5 10 0 1 0 0 1
+value=LTV-846S
+T 23800 14100 5 10 0 1 0 0 1
+footprint=SMD 16
+T 23800 14100 5 10 0 1 0 0 1
+mfg=lite-on
+T 23800 14100 5 10 0 1 0 0 1
+mfg_num=LTV-846S
+T 23800 14100 5 10 0 1 0 0 1
+vnd=digikey
+T 23800 14100 5 10 0 1 0 0 1
+vnd_num=160-1365-5-ND
 }
 C 25000 14100 1 180 0 generic-power.sym
 {
@@ -558,17 +834,27 @@ value=PGND
 }
 C 22900 14400 1 0 0 resistor-2.sym
 {
-T 23300 14750 5 10 0 0 0 0 1
+T 23300 14750 5 10 1 1 0 0 1
 device=RESISTOR
 T 23100 14650 5 10 1 1 0 0 1
 refdes=R39
 T 23100 14350 5 10 1 1 0 2 1
 value=330R
+T 22900 14400 5 10 0 1 0 0 1
+mfg=stackpole
+T 22900 14400 5 10 0 1 0 0 1
+mfg_num=RMCF0805JT330R
+T 22900 14400 5 10 0 1 0 0 1
+vnd=digikey
+T 22900 14400 5 10 0 1 0 0 1
+vnd_num=RMCF0805JT330RCT-ND
+T 22900 14400 5 10 0 1 0 0 1
+footprint=sm0805
 }
 C 23700 13800 1 0 0 gnd-1.sym
 C 24800 15500 1 0 0 highside.sym
 {
-T 25100 16250 5 10 1 1 0 0 1
+T 25100 16250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 16250 5 10 1 1 0 6 1
 refdes=X19
@@ -581,7 +867,7 @@ net=+24v:1
 N 27500 16000 27300 16000 4
 C 24800 14000 1 0 0 highside.sym
 {
-T 25100 14750 5 10 1 1 0 0 1
+T 25100 14750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 14750 5 10 1 1 0 6 1
 refdes=X20
@@ -594,14 +880,24 @@ net=+24v:1
 N 27500 14500 27300 14500 4
 C 20500 21800 1 270 0 capacitor-1.sym
 {
-T 21200 21600 5 10 0 0 270 0 1
+T 21200 21600 5 10 1 1 270 0 1
 device=CAPACITOR
 T 20800 21500 5 10 1 1 0 0 1
 refdes=C5
-T 21400 21600 5 10 0 0 270 0 1
+T 21400 21600 5 10 0 1 270 0 1
 symversion=0.1
 T 20800 21200 5 10 1 1 180 6 1
 value=100n
+T 20500 21800 5 10 0 1 0 0 1
+footprint=sm0805
+T 20500 21800 5 10 0 1 0 0 1
+mfg=yageo
+T 20500 21800 5 10 0 1 0 0 1
+mfg_num=CC0805ZRY5V9BB104
+T 20500 21800 5 10 0 1 0 0 1
+vnd=digikey
+T 20500 21800 5 10 0 1 0 0 1
+vnd_num=311-1361-1-ND
 }
 C 20600 20600 1 0 0 gnd-1.sym
 C 20500 21800 1 0 0 vcc-1.sym
@@ -627,12 +923,20 @@ N 22900 14500 21700 14500 4
 N 21700 14500 21700 22900 4
 C 19700 22700 1 0 0 74HC595-1.sym
 {
-T 20000 25440 5 10 0 0 0 0 1
+T 20000 25440 5 10 1 1 0 0 1
 device=74HC595
 T 21400 25250 5 10 1 1 0 6 1
 refdes=U3
-T 20000 25650 5 10 0 0 0 0 1
-footprint=DIP16
+T 20000 25650 5 10 0 1 0 0 1
+footprint=SMD 14
+T 19700 22700 5 10 0 1 0 0 1
+mfg=nxp
+T 19700 22700 5 10 0 1 0 0 1
+mfg_num=74HC595D,112
+T 19700 22700 5 10 0 1 0 0 1
+vnd=digikey
+T 19700 22700 5 10 0 1 0 0 1
+vnd_num=568-3968-5-ND
 }
 C 19700 24900 1 0 1 io-1.sym
 {
@@ -670,10 +974,16 @@ C 19700 22200 1 90 0 testpt-1.sym
 {
 T 19300 22300 5 10 1 1 0 7 1
 refdes=TP11
-T 18800 22600 5 10 0 0 90 0 1
+T 18800 22600 5 10 1 1 90 0 1
 device=TESTPOINT
-T 19000 22600 5 10 0 0 90 0 1
-footprint=none
+T 19700 22200 5 10 0 1 0 0 1
+mfg=keystone
+T 19700 22200 5 10 0 1 0 0 1
+mfg_num=5016
+T 19700 22200 5 10 0 1 0 0 1
+vnd=digikey
+T 19700 22200 5 10 0 1 0 0 1
+vnd_num=5016KCT-ND
 }
 N 19700 22300 19700 22900 4
 C 22900 27900 1 0 1 io-1.sym
@@ -694,10 +1004,18 @@ C 29400 24400 1 0 0 tblock2-1.sym
 {
 T 30250 25250 5 10 1 1 0 6 1
 refdes=TB11
-T 29700 27600 5 10 0 0 0 0 1
+T 29700 27600 5 10 1 1 0 0 1
 device=282841-2
-T 29700 26400 5 10 0 0 0 0 1
+T 29700 26400 5 10 0 1 0 0 1
 footprint=0
+T 29400 24400 5 10 0 1 0 0 1
+mfg=te connectivity
+T 29400 24400 5 10 0 1 0 0 1
+mfg_num=282841-2
+T 29400 24400 5 10 0 1 0 0 1
+vnd=digikey
+T 29400 24400 5 10 0 1 0 0 1
+vnd_num=A98342-ND
 }
 C 29600 24600 1 180 0 generic-power.sym
 {
