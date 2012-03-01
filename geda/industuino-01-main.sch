@@ -434,6 +434,8 @@ T 29400 24800 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 24800 5 10 0 1 0 0 1
 vnd_num=SDR0805-390KLCT-ND
+T 29400 24800 5 10 0 1 0 0 1
+footprint=SDR0805.fp
 }
 N 28600 22500 30900 22500 4
 N 29500 22500 29500 23900 4
@@ -467,8 +469,6 @@ T 22150 24150 5 10 1 1 0 0 1
 refdes=TB9
 T 22700 26500 5 10 0 1 0 6 1
 device=TERMINAL_BLOCK
-T 22700 25300 5 10 0 1 0 6 1
-footprint=0
 T 23000 23300 5 10 0 1 0 0 1
 mfg=te connectivity
 T 23000 23300 5 10 0 1 0 0 1
@@ -1128,6 +1128,8 @@ T 19900 13700 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13700 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13700 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 13700 1 0 0 io-1.sym
 {
@@ -1206,6 +1208,8 @@ T 19900 13500 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13500 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13500 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 13300 1 90 0 testpt-1.sym
 {
@@ -1221,6 +1225,8 @@ T 19900 13300 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13300 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13300 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 13100 1 90 0 testpt-1.sym
 {
@@ -1236,6 +1242,8 @@ T 19900 13100 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13100 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13100 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 12900 1 90 0 testpt-1.sym
 {
@@ -1251,6 +1259,8 @@ T 19900 12900 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12900 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12900 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 12700 1 90 0 testpt-1.sym
 {
@@ -1266,6 +1276,8 @@ T 19900 12700 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12700 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12700 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 12500 1 90 0 testpt-1.sym
 {
@@ -1281,6 +1293,8 @@ T 19900 12500 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12500 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12500 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 12300 1 90 0 testpt-1.sym
 {
@@ -1296,6 +1310,8 @@ T 19900 12300 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12300 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12300 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 19900 12100 1 90 0 testpt-1.sym
 {
@@ -1311,6 +1327,8 @@ T 19900 12100 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12100 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12100 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 31700 23500 1 0 0 vcc-1.sym
 N 30900 23000 30900 22500 4
@@ -1328,6 +1346,8 @@ T 30900 22400 5 10 0 1 0 0 1
 vnd=digikey
 T 30900 22400 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 30900 22400 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 30800 23000 1 0 0 jumper3-1.sym
 {
@@ -1397,6 +1417,8 @@ T 22600 22600 5 10 0 1 0 0 1
 vnd=digikey
 T 22600 22600 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 22600 22600 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 22500 22400 1 0 0 gnd-1.sym
 C 24000 14400 1 0 0 jumper3-1.sym
@@ -1470,5 +1492,7 @@ T 19900 11900 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 11900 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 11900 5 10 0 1 0 0 1
+footprint=testpoint-smd.fp
 }
 C 20000 11700 1 0 1 gnd-1.sym
