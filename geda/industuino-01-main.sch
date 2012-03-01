@@ -364,11 +364,11 @@ value=100u
 T 24600 23900 5 10 0 1 0 0 1
 mfg=nichicon
 T 24600 23900 5 10 0 1 0 0 1
-mfg_num=UWX0J101MCL1GB
+mfg_num=UVR1V101MED
 T 24600 23900 5 10 0 1 0 0 1
 vnd=digikey
 T 24600 23900 5 10 0 1 0 0 1
-vnd_num=493-2088-1-ND
+vnd_num=493-1081-ND
 }
 C 24700 22700 1 0 0 gnd-1.sym
 C 27600 24400 1 270 0 capacitor-1.sym
@@ -452,11 +452,11 @@ value=100u
 T 29300 22300 5 10 0 1 0 0 1
 mfg=nichicon
 T 29300 22300 5 10 0 1 0 0 1
-mfg_num=UWX0J101MCL1GB
+mfg_num=UVR1V101MED
 T 29300 22300 5 10 0 1 0 0 1
 vnd=digikey
 T 29300 22300 5 10 0 1 0 0 1
-vnd_num=493-2088-1-ND
+vnd_num=493-1081-ND
 }
 C 29400 21100 1 0 0 gnd-1.sym
 N 29500 22500 29500 22300 4
