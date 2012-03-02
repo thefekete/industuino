@@ -501,8 +501,6 @@ T 30250 31250 5 10 1 1 0 6 1
 refdes=TB1
 T 29700 33600 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 32400 5 10 0 1 0 0 1
-footprint=0
 T 29400 30000 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 30000 5 10 0 1 0 0 1
@@ -511,6 +509,8 @@ T 29400 30000 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 30000 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 30000 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 28500 1 0 0 tblock3-1.sym
 {
@@ -518,8 +518,6 @@ T 30250 29750 5 10 1 1 0 6 1
 refdes=TB2
 T 29700 32100 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 30900 5 10 0 1 0 0 1
-footprint=0
 T 29400 28500 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 28500 5 10 0 1 0 0 1
@@ -528,6 +526,8 @@ T 29400 28500 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 28500 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 28500 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 27000 1 0 0 tblock3-1.sym
 {
@@ -535,8 +535,6 @@ T 30250 28250 5 10 1 1 0 6 1
 refdes=TB3
 T 29700 30600 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 29400 5 10 0 1 0 0 1
-footprint=0
 T 29400 27000 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 27000 5 10 0 1 0 0 1
@@ -545,6 +543,8 @@ T 29400 27000 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 27000 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 27000 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 25500 1 0 0 tblock3-1.sym
 {
@@ -552,8 +552,6 @@ T 30250 26750 5 10 1 1 0 6 1
 refdes=TB4
 T 29700 29100 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 27900 5 10 0 1 0 0 1
-footprint=0
 T 29400 25500 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 25500 5 10 0 1 0 0 1
@@ -562,6 +560,8 @@ T 29400 25500 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 25500 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 25500 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29200 31000 1 0 0 generic-power.sym
 {
@@ -984,6 +984,8 @@ T 19700 22200 5 10 0 1 0 0 1
 vnd=digikey
 T 19700 22200 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19700 22200 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 N 19700 22300 19700 22900 4
 C 22900 27900 1 0 1 io-1.sym
@@ -1006,8 +1008,6 @@ T 30250 25250 5 10 1 1 0 6 1
 refdes=TB11
 T 29700 27600 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 26400 5 10 0 1 0 0 1
-footprint=0
 T 29400 24400 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 24400 5 10 0 1 0 0 1
@@ -1016,6 +1016,8 @@ T 29400 24400 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 24400 5 10 0 1 0 0 1
 vnd_num=A98342-ND
+T 29400 24400 5 10 0 1 0 0 1
+footprint=TB2
 }
 C 29600 24600 1 180 0 generic-power.sym
 {

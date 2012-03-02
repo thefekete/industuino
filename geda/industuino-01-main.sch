@@ -369,6 +369,8 @@ T 25100 23900 5 10 0 1 0 0 1
 vnd=digikey
 T 25100 23900 5 10 0 1 0 0 1
 vnd_num=493-1081-ND
+T 24600 23900 5 10 0 1 0 0 1
+footprint=RCY100P
 }
 C 25200 22700 1 0 0 gnd-1.sym
 C 28100 24400 1 270 0 capacitor-1.sym
@@ -434,6 +436,8 @@ T 29900 24800 5 10 0 1 0 0 1
 vnd=digikey
 T 29900 24800 5 10 0 1 0 0 1
 vnd_num=SDR0805-390KLCT-ND
+T 29400 24800 5 10 0 1 0 0 1
+footprint=SDR0805
 }
 N 29100 22500 31400 22500 4
 N 30000 22500 30000 23900 4
@@ -455,6 +459,8 @@ T 29800 22300 5 10 0 1 0 0 1
 vnd=digikey
 T 29800 22300 5 10 0 1 0 0 1
 vnd_num=493-1081-ND
+T 29300 22300 5 10 0 1 0 0 1
+footprint=RCY100P
 }
 C 29900 21100 1 0 0 gnd-1.sym
 N 30000 22500 30000 22300 4
@@ -467,8 +473,6 @@ T 22150 24150 5 10 1 1 0 0 1
 refdes=TB9
 T 22700 26500 5 10 0 1 0 6 1
 device=TERMINAL_BLOCK
-T 22700 25300 5 10 0 1 0 6 1
-footprint=0
 T 23000 23300 5 10 0 1 0 0 1
 mfg=te connectivity
 T 23000 23300 5 10 0 1 0 0 1
@@ -477,6 +481,8 @@ T 23000 23300 5 10 0 1 0 0 1
 vnd=digikey
 T 23000 23300 5 10 0 1 0 0 1
 vnd_num=A98342-ND
+T 23000 23300 5 10 0 1 0 0 1
+footprint=TB2
 }
 C 22900 23200 1 0 0 gnd-1.sym
 C 23300 22900 1 0 0 led-4.sym
@@ -736,6 +742,8 @@ T 13900 13200 5 10 0 1 0 0 1
 vnd=digikey
 T 13900 13200 5 10 0 1 0 0 1
 vnd_num=450-1140-ND
+T 13900 13200 5 10 0 1 0 0 1
+footprint=FSMSM
 }
 N 13900 13200 13900 14000 4
 C 13800 12100 1 0 0 gnd-1.sym
@@ -1128,6 +1136,8 @@ T 19900 13700 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13700 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13700 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 13700 1 0 0 io-1.sym
 {
@@ -1206,6 +1216,8 @@ T 19900 13500 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13500 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13500 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 13300 1 90 0 testpt-1.sym
 {
@@ -1221,6 +1233,8 @@ T 19900 13300 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13300 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13300 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 13100 1 90 0 testpt-1.sym
 {
@@ -1236,6 +1250,8 @@ T 19900 13100 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 13100 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 13100 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 12900 1 90 0 testpt-1.sym
 {
@@ -1251,6 +1267,8 @@ T 19900 12900 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12900 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12900 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 12700 1 90 0 testpt-1.sym
 {
@@ -1266,6 +1284,8 @@ T 19900 12700 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12700 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12700 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 12500 1 90 0 testpt-1.sym
 {
@@ -1281,6 +1301,8 @@ T 19900 12500 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12500 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12500 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 12300 1 90 0 testpt-1.sym
 {
@@ -1296,6 +1318,8 @@ T 19900 12300 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12300 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12300 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 19900 12100 1 90 0 testpt-1.sym
 {
@@ -1311,6 +1335,8 @@ T 19900 12100 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 12100 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 12100 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 32200 23500 1 0 0 vcc-1.sym
 N 31400 23000 31400 22500 4
@@ -1328,6 +1354,8 @@ T 31400 22400 5 10 0 1 0 0 1
 vnd=digikey
 T 31400 22400 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 30900 22400 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 31300 23000 1 0 0 jumper3-1.sym
 {
@@ -1397,6 +1425,8 @@ T 22200 24700 5 10 0 1 0 0 1
 vnd=digikey
 T 22200 24700 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 22600 22600 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 22100 24500 1 0 0 gnd-1.sym
 C 24000 14400 1 0 0 jumper3-1.sym
@@ -1453,6 +1483,8 @@ T 10800 22400 5 10 0 1 0 0 1
 vnd=digikey
 T 10800 22400 5 10 0 1 0 0 1
 vnd_num=ED2992CT-ND
+T 10800 22400 5 10 0 1 0 0 1
+footprint=USB-M26FTR
 }
 N 13000 23200 13000 22400 4
 N 13000 22400 11700 22400 4
@@ -1470,6 +1502,8 @@ T 19900 11900 5 10 0 1 0 0 1
 vnd=digikey
 T 19900 11900 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19900 11900 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
 C 20000 11700 1 0 1 gnd-1.sym
 C 24200 23900 1 270 0 capacitor-1.sym
