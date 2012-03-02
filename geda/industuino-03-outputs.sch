@@ -509,6 +509,8 @@ T 29400 30000 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 30000 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 30000 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 28500 1 0 0 tblock3-1.sym
 {
@@ -524,6 +526,8 @@ T 29400 28500 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 28500 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 28500 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 27000 1 0 0 tblock3-1.sym
 {
@@ -539,6 +543,8 @@ T 29400 27000 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 27000 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 27000 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 25500 1 0 0 tblock3-1.sym
 {
@@ -554,6 +560,8 @@ T 29400 25500 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 25500 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 25500 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29200 31000 1 0 0 generic-power.sym
 {
@@ -1008,6 +1016,8 @@ T 29400 24400 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 24400 5 10 0 1 0 0 1
 vnd_num=A98342-ND
+T 29400 24400 5 10 0 1 0 0 1
+footprint=TB2
 }
 C 29600 24600 1 180 0 generic-power.sym
 {
