@@ -10,7 +10,7 @@ refdes=U1
 T 15000 19400 5 10 1 1 0 0 1
 device=ATMEGA168
 T 15000 19200 5 10 0 1 0 0 1
-footprint=TQFP32
+footprint=TQFP32_7
 T 14700 11700 5 10 0 1 0 0 1
 mfg=atmel
 T 14700 11700 5 10 0 1 0 0 1
