@@ -1223,7 +1223,7 @@ vnd=digikey
 T 29400 21400 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
 T 29400 21400 5 10 0 1 0 0 1
-footprint=testpoint-smd.fp
+footprint=testpoint-smd
 }
 N 29400 22100 29400 21500 4
 C 27100 27400 1 0 0 io-1.sym
