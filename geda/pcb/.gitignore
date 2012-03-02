@@ -1,6 +1,6 @@
 # gEDA .gitignore file
 *~
-*.bak
+*.bak*
 *.backup
 *.log
 \#*#
