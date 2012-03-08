@@ -501,8 +501,6 @@ T 30250 31250 5 10 1 1 0 6 1
 refdes=TB1
 T 29700 33600 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 32400 5 10 0 1 0 0 1
-footprint=0
 T 29400 30000 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 30000 5 10 0 1 0 0 1
@@ -511,6 +509,8 @@ T 29400 30000 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 30000 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 30000 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 28500 1 0 0 tblock3-1.sym
 {
@@ -518,8 +518,6 @@ T 30250 29750 5 10 1 1 0 6 1
 refdes=TB2
 T 29700 32100 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 30900 5 10 0 1 0 0 1
-footprint=0
 T 29400 28500 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 28500 5 10 0 1 0 0 1
@@ -528,6 +526,8 @@ T 29400 28500 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 28500 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 28500 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 27000 1 0 0 tblock3-1.sym
 {
@@ -535,8 +535,6 @@ T 30250 28250 5 10 1 1 0 6 1
 refdes=TB3
 T 29700 30600 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 29400 5 10 0 1 0 0 1
-footprint=0
 T 29400 27000 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 27000 5 10 0 1 0 0 1
@@ -545,6 +543,8 @@ T 29400 27000 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 27000 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 27000 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29400 25500 1 0 0 tblock3-1.sym
 {
@@ -552,8 +552,6 @@ T 30250 26750 5 10 1 1 0 6 1
 refdes=TB4
 T 29700 29100 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 27900 5 10 0 1 0 0 1
-footprint=0
 T 29400 25500 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 25500 5 10 0 1 0 0 1
@@ -562,6 +560,8 @@ T 29400 25500 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 25500 5 10 0 1 0 0 1
 vnd_num=A98343-ND
+T 29400 25500 5 10 0 1 0 0 1
+footprint=TB3
 }
 C 29200 31000 1 0 0 generic-power.sym
 {
@@ -573,7 +573,7 @@ C 24800 30500 1 0 0 highside.sym
 T 25100 31250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 31250 5 10 1 1 0 6 1
-refdes=X11
+refdes=X13
 }
 C 27300 31000 1 0 0 generic-power.sym
 {
@@ -586,7 +586,7 @@ C 24800 29000 1 0 0 highside.sym
 T 25100 29750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 29750 5 10 1 1 0 6 1
-refdes=X12
+refdes=X14
 }
 C 27300 29500 1 0 0 generic-power.sym
 {
@@ -599,7 +599,7 @@ C 24800 27500 1 0 0 highside.sym
 T 25100 28250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 28250 5 10 1 1 0 6 1
-refdes=X13
+refdes=X15
 }
 C 27300 28000 1 0 0 generic-power.sym
 {
@@ -612,7 +612,7 @@ C 24800 26000 1 0 0 highside.sym
 T 25100 26750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 26750 5 10 1 1 0 6 1
-refdes=X14
+refdes=X16
 }
 C 27300 26500 1 0 0 generic-power.sym
 {
@@ -625,7 +625,7 @@ C 24800 24500 1 0 0 highside.sym
 T 25100 25250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 25250 5 10 1 1 0 6 1
-refdes=X15
+refdes=X17
 }
 C 27300 25000 1 0 0 generic-power.sym
 {
@@ -638,7 +638,7 @@ C 24800 23000 1 0 0 highside.sym
 T 25100 23750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 23750 5 10 1 1 0 6 1
-refdes=X16
+refdes=X18
 }
 C 27300 23500 1 0 0 generic-power.sym
 {
@@ -651,7 +651,7 @@ C 24800 21500 1 0 0 highside.sym
 T 25100 22250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 22250 5 10 1 1 0 6 1
-refdes=X17
+refdes=X19
 }
 C 27300 22000 1 0 0 generic-power.sym
 {
@@ -664,7 +664,7 @@ C 24800 20000 1 0 0 highside.sym
 T 25100 20750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 20750 5 10 1 1 0 6 1
-refdes=X18
+refdes=X20
 }
 C 27300 20500 1 0 0 generic-power.sym
 {
@@ -677,7 +677,7 @@ C 24800 18500 1 0 0 highside.sym
 T 25100 19250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 19250 5 10 1 1 0 6 1
-refdes=X19
+refdes=X21
 }
 C 27300 19000 1 0 0 generic-power.sym
 {
@@ -690,7 +690,7 @@ C 24800 17000 1 0 0 highside.sym
 T 25100 17750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 17750 5 10 1 1 0 6 1
-refdes=X20
+refdes=X22
 }
 C 27300 17500 1 0 0 generic-power.sym
 {
@@ -857,7 +857,7 @@ C 24800 15500 1 0 0 highside.sym
 T 25100 16250 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 16250 5 10 1 1 0 6 1
-refdes=X19
+refdes=X23
 }
 C 27300 16000 1 0 0 generic-power.sym
 {
@@ -870,7 +870,7 @@ C 24800 14000 1 0 0 highside.sym
 T 25100 14750 5 10 0 1 0 0 1
 source=industuino-x2-highside.sch
 T 27000 14750 5 10 1 1 0 6 1
-refdes=X20
+refdes=X24
 }
 C 27300 14500 1 0 0 generic-power.sym
 {
@@ -928,7 +928,7 @@ device=74HC595
 T 21400 25250 5 10 1 1 0 6 1
 refdes=U3
 T 20000 25650 5 10 0 1 0 0 1
-footprint=SMD 14
+footprint=SMD 16
 T 19700 22700 5 10 0 1 0 0 1
 mfg=nxp
 T 19700 22700 5 10 0 1 0 0 1
@@ -959,33 +959,35 @@ net=SS:1
 T 19500 24900 5 10 0 0 0 6 1
 device=none
 }
-C 19700 22800 1 0 1 io-1.sym
+C 19500 22800 1 0 1 io-1.sym
 {
-T 19400 22900 5 7 1 1 0 7 1
+T 19200 22900 5 7 1 1 0 7 1
 net=SOEH:1
-T 19500 23400 5 10 0 0 0 6 1
+T 19300 23400 5 10 0 0 0 6 1
 device=none
 }
 C 19000 23800 1 0 0 vcc-1.sym
 C 19100 23200 1 0 0 gnd-1.sym
 N 19200 23800 19700 23800 4
 N 19200 23500 19700 23500 4
-C 19700 22200 1 90 0 testpt-1.sym
+C 19600 22200 1 90 0 testpt-1.sym
 {
-T 19300 22300 5 10 1 1 0 7 1
+T 19200 22300 5 10 1 1 0 7 1
 refdes=TP11
-T 18800 22600 5 10 0 1 90 0 1
+T 18700 22600 5 10 0 1 90 0 1
 device=TESTPOINT
-T 19700 22200 5 10 0 1 0 0 1
+T 19600 22200 5 10 0 1 0 0 1
 mfg=keystone
-T 19700 22200 5 10 0 1 0 0 1
+T 19600 22200 5 10 0 1 0 0 1
 mfg_num=5016
-T 19700 22200 5 10 0 1 0 0 1
+T 19600 22200 5 10 0 1 0 0 1
 vnd=digikey
-T 19700 22200 5 10 0 1 0 0 1
+T 19600 22200 5 10 0 1 0 0 1
 vnd_num=5016KCT-ND
+T 19600 22200 5 10 0 1 0 0 1
+footprint=testpoint-smd
 }
-N 19700 22300 19700 22900 4
+N 19600 22300 19600 22900 4
 C 22900 27900 1 0 1 io-1.sym
 {
 T 22600 28000 5 7 1 1 0 7 1
@@ -1006,8 +1008,6 @@ T 30250 25250 5 10 1 1 0 6 1
 refdes=TB11
 T 29700 27600 5 10 0 1 0 0 1
 device=TERMINAL_BLOCK
-T 29700 26400 5 10 0 1 0 0 1
-footprint=0
 T 29400 24400 5 10 0 1 0 0 1
 mfg=te connectivity
 T 29400 24400 5 10 0 1 0 0 1
@@ -1016,6 +1016,8 @@ T 29400 24400 5 10 0 1 0 0 1
 vnd=digikey
 T 29400 24400 5 10 0 1 0 0 1
 vnd_num=A98342-ND
+T 29400 24400 5 10 0 1 0 0 1
+footprint=TB2
 }
 C 29600 24600 1 180 0 generic-power.sym
 {
@@ -1030,3 +1032,4 @@ N 28800 25700 29400 25700 4
 N 29400 25000 28900 25000 4
 N 28900 25000 28900 14100 4
 N 28900 14100 27300 14100 4
+N 19500 22900 19700 22900 4
