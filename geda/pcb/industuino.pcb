@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Thu Mar  8 01:32:11 2012
+# date:    Thu Mar  8 01:39:57 2012
 # user:    danno (Dan Fekete,,,)
 # host:    helpcomputer.thefekete.lan
 
@@ -4987,6 +4987,20 @@ Layer(6 "silk")
 	Text[324000 17000 2 100 "Gnd" ""]
 	Text[354000 12000 0 320 "+" ""]
 	Text[299000 12000 0 320 "-" ""]
+	Text[178000 12000 0 100 "Txd" ""]
+	Text[198000 12000 0 100 "Rxd" ""]
+	Text[219000 12000 0 100 "SCL" ""]
+	Text[238000 12000 0 100 "SDA" ""]
+	Text[278000 12000 0 100 "GND" ""]
+	Text[256000 12000 0 100 "5Vout" ""]
+	Text[162000 300000 0 100 "SIEH" ""]
+	Text[180000 300000 0 100 "PL" ""]
+	Text[195000 300000 0 100 "SS" ""]
+	Text[209000 300000 0 100 "SCK" ""]
+	Text[222000 300000 0 100 "MISO" ""]
+	Text[237000 300000 0 100 "MOSI" ""]
+	Text[251000 300000 0 100 "SOEH" ""]
+	Text[238000 348000 0 100 "GND" ""]
 )
 NetList()
 (
