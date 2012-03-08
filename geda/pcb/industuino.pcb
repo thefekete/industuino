@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Wed Mar  7 21:21:21 2012
+# date:    Wed Mar  7 21:28:30 2012
 # user:    danno (Dan Fekete,,,)
 # host:    helpcomputer.thefekete.lan
 
@@ -4403,6 +4403,7 @@ Layer(1 "component")
 	Line[153000 611500 156000 611500 1000 2000 "clearline"]
 	Line[158000 616000 157500 616500 1000 2000 "clearline"]
 	Line[157500 616500 150000 616500 1000 2000 "clearline"]
+	Line[177400 622000 181500 622000 1000 2000 "clearline"]
 )
 Layer(2 "solder")
 (
@@ -4618,6 +4619,7 @@ Layer(2 "solder")
 	Line[172400 622000 203000 622000 1000 2000 "clearline"]
 	Line[203000 622000 214500 610500 1000 2000 "clearline"]
 	Line[214500 610500 244500 610500 1000 2000 "clearline"]
+	Line[182000 507000 191000 507000 1000 2000 "clearline"]
 )
 Layer(3 "outline")
 (
@@ -4719,6 +4721,8 @@ NetList()
 		Connect("U3-13")
 		Connect("U4-8")
 		Connect("U4-15")
+		Connect("U5-7")
+		Connect("U6-7")
 		Connect("U7-9")
 		Connect("U7-11")
 		Connect("U7-13")
@@ -5614,6 +5618,8 @@ NetList()
 		Connect("U3-10")
 		Connect("U3-16")
 		Connect("U4-16")
+		Connect("U5-14")
+		Connect("U6-14")
 		Connect("U14-4")
 		Connect("U14-19")
 		Connect("U14-20")
