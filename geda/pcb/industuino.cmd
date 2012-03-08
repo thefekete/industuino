@@ -451,6 +451,14 @@ ChangePinName(U10, 16, C)
 ChangePinName(U10, 2, 2)
 ChangePinName(U10, 1, 1)
 
+# Start of element J4
+ChangePinName(J4, 1, 1)
+ChangePinName(J4, 2, 2)
+
+# Start of element J3
+ChangePinName(J3, 1, 1)
+ChangePinName(J3, 2, 2)
+
 # Start of element TB10
 ChangePinName(TB10, 2, Terminal 2)
 ChangePinName(TB10, 1, Terminal 1)
@@ -830,6 +838,18 @@ ChangePinName(U5, 3, A)
 ChangePinName(U5, 2, Y)
 ChangePinName(U5, 1, A)
 
+# Start of element CN1
+ChangePinName(CN1, 6, 6)
+ChangePinName(CN1, 7, 7)
+ChangePinName(CN1, 8, 8)
+ChangePinName(CN1, 9, 9)
+ChangePinName(CN1, 10, 10)
+ChangePinName(CN1, 5, 5)
+ChangePinName(CN1, 1, 1)
+ChangePinName(CN1, 4, 4)
+ChangePinName(CN1, 3, 3)
+ChangePinName(CN1, 2, 2)
+
 # Start of element CN5
 ChangePinName(CN5, 1, 1)
 ChangePinName(CN5, 4, 4)
@@ -1025,14 +1045,6 @@ ChangePinName(CN2, 4, 4)
 ChangePinName(CN2, 2, 2)
 ChangePinName(CN2, 3, 3)
 
-# Start of element CN1
-ChangePinName(CN1, 5, 5)
-ChangePinName(CN1, 3, 3)
-ChangePinName(CN1, 1, 1)
-ChangePinName(CN1, 6, 6)
-ChangePinName(CN1, 4, 4)
-ChangePinName(CN1, 2, 2)
-
 # Start of element R26
 ChangePinName(R26, 1, 1)
 ChangePinName(R26, 2, 2)
@@ -1090,10 +1102,6 @@ ChangePinName(U13, 1, SWc)
 # Start of element Y1
 ChangePinName(Y1, 2, 2)
 ChangePinName(Y1, 1, 1)
-
-# Start of element C3
-ChangePinName(C3, 2, 2)
-ChangePinName(C3, 1, 1)
 
 # Start of element C2
 ChangePinName(C2, 2, 2)
