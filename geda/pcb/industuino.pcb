@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Fri Mar  9 14:32:12 2012
+# date:    Mon Mar 12 14:19:53 2012
 # user:    danno (Dan Fekete,,,)
 # host:    superdave.gphirrigation.com
 
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 420000 370000]
 
 Grid[1000.000000 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[0 370000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 800 800 800 1500 800]
@@ -3207,7 +3207,7 @@ Element["" "sm0805" "R29" "2k2" 115000 103000 13000 -3000 0 100 ""]
 
 	)
 
-Element["" "805" "D3" "unknown" 64000 95300 7300 -12100 3 100 ""]
+Element["" "805" "D3" "unknown" 64000 95300 19000 -3300 3 100 ""]
 (
 	Pad[0 -700 0 700 4500 3000 5100 "K" "1" "square"]
 	Pad[8000 -700 8000 700 4500 3000 5100 "A" "2" "square"]
@@ -4872,6 +4872,7 @@ Layer(4 "silk")
 	Text[160000 299000 0 155 "(C) 2012 Loopback Labs, LLC." "auto"]
 	Text[161000 288000 0 144 "Design & Layout by Dan Fekete" "auto"]
 	Text[160000 321000 0 397 "INDUSTUINO" "auto"]
+	Text[162000 280000 0 133 "Commissioned by Travis Komara" "auto"]
 )
 Layer(5 "silk")
 (
@@ -5001,6 +5002,8 @@ Layer(5 "silk")
 	Text[251000 300000 0 100 "SOEH" ""]
 	Text[238000 348000 0 100 "GND" ""]
 	Text[331000 349000 0 100 "INDUSTUINO REV 0" ""]
+	Text[67000 82000 3 122 "Tx" ""]
+	Text[67000 112000 3 122 "Rx" ""]
 )
 NetList()
 (
