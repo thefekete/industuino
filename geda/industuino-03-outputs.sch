@@ -753,7 +753,7 @@ FILE NAME:
 T 30300 10050 15 10 1 1 0 3 1
 industuino-01-outputs.sch
 T 32850 10350 15 24 1 1 0 3 1
-0
+1
 T 32400 10850 15 6 1 0 0 2 1
 REV:
 C 23800 15600 1 0 0 quad-optoisolator-1.sym
